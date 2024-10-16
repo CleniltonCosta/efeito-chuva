@@ -29,6 +29,8 @@ width: 5px;
 height: 5px;
 border-radius: 50%;
 background-color: aliceblue;
+
+transform: translateY(-100%);
 animation-name: rainAnim;
 animation-duration: 1s;
 animation-delay: var(--rain-delay);

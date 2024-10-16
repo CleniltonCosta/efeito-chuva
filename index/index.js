@@ -5,6 +5,5 @@ const getRandomNumber = (min,max)=>{
 const rains = document.querySelectorAll(".rain");
 
 rains.forEach(rain=>{
-    const rainDelay = getRandomNumber(200,1000);
-    rain.style = `--i:${rainDelay}ms;`;
+    rain.style = `--rain-delay:${getRandomNumber(0, 1000)}ms`;
 })
